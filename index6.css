@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #search-box {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+  #search-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 , 200px);
+    grid-template-rows: repeat(4, 200px);
+    gap:20px;
+  }
+
+  .image-card {
+    margin: 10px;
+    border : 1px solid teal;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .head {
+      height: 100px;
+      width: 100px;
+  }
